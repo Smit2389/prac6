@@ -1,12 +1,10 @@
 import './App.css';
-import Counter from './components/Counter';
+import GuessTheNumberGame from './GuessTheNumberGame';
 
 function App() {
   return (
     <>
-      <div>
-        <Counter />
-      </div>
+    <GuessTheNumberGame/>
     </>
   );
 }
